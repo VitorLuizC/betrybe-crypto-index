@@ -1,0 +1,3 @@
+[submodule "packages/web"]
+	path = packages/web
+	url = git@github.com:VitorLuizC/betrybe-crypto-index-web.git
