@@ -2,17 +2,24 @@
   "name": "@betrybe-crypto-index/answer",
   "version": "1.0.0",
   "description": "...",
-  "main": "dist/main.js",
+  "main": "./dist/main.js",
+  "types": "./types/main.d.ts",
+  "files": [
+    "dist/",
+    "types/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "tsc -p ./tsconfig.json",
     "lint": "prettier --check .",
     "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.3.3"
+  },
   "devDependencies": {
-    "@types/node": "^16.3.3",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
   }

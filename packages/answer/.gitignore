@@ -1,0 +1,5 @@
+# Bundled modules and their source-maps.
+/dist
+
+# Generated type declarations.
+/types
