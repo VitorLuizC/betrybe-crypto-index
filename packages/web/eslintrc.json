@@ -1,0 +1,23 @@
+{
+    "eslintConfig": {
+        "extends": [
+            "plugin:react/recommended",
+            "react-app",
+            "shared-config"
+        ],
+        "rules": {
+            "additional-rule": "warn"
+        },
+        "overrides": [
+            {
+                "files": [
+                    "**/*.ts?(x)"
+                ],
+                "rules": {
+                    "additional-typescript-only-rule": "warn",
+                    "react/jsx-uses-react": 1
+                }
+            }
+        ]
+    }
+}
