@@ -1,7 +1,0 @@
-{
-  "out": "./docs",
-  "name": "Crypto Index (a [@betrybe](https://github.com/betrybe) full-stack challenge)",
-  "theme": "markdown",
-  "readme": "none",
-  "tsconfig": "./tsconfig.bundle.json"
-}
