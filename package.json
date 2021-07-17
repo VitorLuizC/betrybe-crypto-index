@@ -1,5 +1,5 @@
 {
-  "name": "@crypto-index/root",
+  "name": "@betrybe-crypto-index/root",
   "private": true,
   "version": "0.0.0",
   "description": "Crypto Index mono repository root.",
