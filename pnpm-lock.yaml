@@ -37,6 +37,7 @@ importers:
 
   packages/api:
     specifiers:
+      '@betrybe-crypto-index/answer': link:../answer
       '@types/jsonwebtoken': ^8.5.4
       '@types/level-js': ^4.0.2
       '@types/levelup': ^4.3.3
@@ -46,6 +47,7 @@ importers:
       prettier: ^2.3.2
       yup: ^0.32.9
     dependencies:
+      '@betrybe-crypto-index/answer': link:../answer
       jsonwebtoken: 8.5.1
       prettier: 2.3.2
       yup: 0.32.9

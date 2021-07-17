@@ -20,6 +20,7 @@
     "@types/yup": "^0.29.13"
   },
   "dependencies": {
+    "@betrybe-crypto-index/answer": "link:../answer",
     "jsonwebtoken": "^8.5.1",
     "prettier": "^2.3.2",
     "yup": "^0.32.9"
