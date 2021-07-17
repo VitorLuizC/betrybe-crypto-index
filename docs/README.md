@@ -1,6 +1,6 @@
-[libraryNameWithSpacesAndUpperCases]
+Crypto Index (a [@betrybe](https://github.com/betrybe) full-stack challenge)
 
-# [libraryNameWithSpacesAndUpperCases]
+# Crypto Index (a [@betrybe](https://github.com/betrybe) full-stack challenge)
 
 ## Table of contents
 
