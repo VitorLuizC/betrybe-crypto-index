@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"],
+
+    // Transpilation settings.
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "target": "ES2020",
+    "newLine": "lf",
+    "sourceMap": true,
+
+    // Type declaration settings.
+    "declaration": true,
+    "declarationDir": "./types",
+    "declarationMap": true
+  },
+  "include": ["./src"]
+}
