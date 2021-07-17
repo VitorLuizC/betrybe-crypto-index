@@ -1,0 +1,27 @@
+{
+  "name": "@betrybe-crypto-index/api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.4",
+    "@types/level-js": "^4.0.2",
+    "@types/levelup": "^4.3.3",
+    "@types/node": "^16.3.3",
+    "@types/yup": "^0.29.13"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "prettier": "^2.3.2",
+    "yup": "^0.32.9"
+  }
+}
