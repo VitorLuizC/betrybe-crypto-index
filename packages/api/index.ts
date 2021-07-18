@@ -1,7 +1,7 @@
 import type { ServerResponse, IncomingMessage } from 'http';
 import { createServer } from 'http';
 import Answer from '../answer/types/Answer';
-import { ServiceNotFound } from './constants/answers';
+import { ServiceNotFoundAnswer } from './constants/answers';
 import loginRoute from './routes/login';
 
 async function app(request: IncomingMessage, response: ServerResponse) {
@@ -12,7 +12,7 @@ async function app(request: IncomingMessage, response: ServerResponse) {
     case '/api/crypto/btc':
       break;
     default: {
-      return Answer.send(response, ServiceNotFound);
+      return Answer.send(response, ServiceNotFoundAnswer);
     }
   }
 }
