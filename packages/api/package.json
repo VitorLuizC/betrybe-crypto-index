@@ -17,11 +17,13 @@
     "@types/level-js": "^4.0.2",
     "@types/levelup": "^4.3.3",
     "@types/node": "^16.3.3",
+    "@types/node-fetch": "^2.5.11",
     "@types/yup": "^0.29.13"
   },
   "dependencies": {
     "@betrybe-crypto-index/answer": "link:../answer",
     "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.1",
     "prettier": "^2.3.2",
     "yup": "^0.32.9"
   }
