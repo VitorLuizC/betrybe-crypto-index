@@ -1,4 +1,4 @@
-import Answer from '../../../answer/types/Answer';
+import Answer from '../../../../answer/types/Answer';
 
 export const createTokenAnswer = (token: string): Answer =>
   new Answer()

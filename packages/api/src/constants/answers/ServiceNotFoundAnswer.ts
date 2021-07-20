@@ -1,4 +1,4 @@
-import Answer from '../../../answer/types/Answer';
+import Answer from '../../../../answer/types/Answer';
 
 const ServiceNotFoundAnswer = new Answer()
   .withStatusCode(404)

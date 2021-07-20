@@ -1,4 +1,4 @@
-import Answer from '../../../answer/types/Answer';
+import Answer from '../../../../answer/types/Answer';
 
 export const InternalServerErrorAnswer = new Answer()
   .withStatusCode(500)
