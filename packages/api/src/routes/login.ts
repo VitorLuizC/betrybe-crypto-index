@@ -33,10 +33,12 @@ async function loginRoute(
         return Answer.send(response, UserNotFoundAnswer);
       }
 
-      const token = jwt.sign({ email }, process.env.AUTH_SECRET);
+      const token = jwt.sign({ email }, process.env['AUTH_SECRET'] ?? '');
 
       return Answer.send(response, createTokenAnswer(token));
     } catch (error) {
+      console.log(error);
+
       if (error instanceof InvalidAuthenticationParametersError) {
         return Answer.send(response, BadRequestAnswer);
       }
