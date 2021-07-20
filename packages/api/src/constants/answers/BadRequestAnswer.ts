@@ -1,4 +1,4 @@
-import Answer from '../../../../answer/types/Answer';
+import Answer from '@betrybe-crypto-index/answer';
 
 export const BadRequestAnswer = new Answer()
   .withStatusCode(400)

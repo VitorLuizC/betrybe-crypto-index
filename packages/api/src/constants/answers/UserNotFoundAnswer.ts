@@ -1,4 +1,4 @@
-import Answer from '../../../../answer/types/Answer';
+import Answer from '@betrybe-crypto-index/answer';
 
 export const UserNotFoundAnswer = new Answer()
   .withStatusCode(404)
