@@ -1,8 +1,8 @@
 import type { ServerResponse, IncomingMessage } from 'http';
 import { createServer } from 'http';
 import Answer from '../answer/types/Answer';
-import { ServiceNotFoundAnswer } from './constants/answers';
-import loginRoute from './routes/login';
+import { ServiceNotFoundAnswer } from './src/constants/answers';
+import loginRoute from './src/routes/login';
 
 async function app(request: IncomingMessage, response: ServerResponse) {
   switch (request.url) {
